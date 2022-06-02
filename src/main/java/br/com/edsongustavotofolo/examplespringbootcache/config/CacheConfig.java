@@ -25,7 +25,7 @@ public class CacheConfig {
             CACHE_GET_PERSONS,
             CACHE_GET_CARS
     }, allEntries = true)
-    public void clearCache24horas() {
+    public void clearCache() {
         log.info("Cleaning cache...");
     }
 }
